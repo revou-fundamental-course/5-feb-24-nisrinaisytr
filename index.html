@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kalkulator suhu</title>
+    <link rel="stylesheet" href="kalkulator_style.css">
+</head>
+<body>
+    <h1>
+        KALKULATOR SUHU
+    </h1>
+    <hr>
+    <br>
+    <h2 class="pertanyaan">
+        Apa itu Kalkulator Suhu?
+    </h2>
+    <br>
+    <h2>
+        Kalkulator suhu adalah alat atau aplikasi yang digunakan untuk mengkonversi suhu dari satu satuan ke satuan lainnya. Biasanya, kalkulator suhu dapat mengubah suhu dari Celcius ke Fahrenheit, Kelvin ke Celcius, atau sebaliknya. Beberapa kalkulator suhu juga dapat menghitung perbedaan suhu, mengubah suhu dari satu sistem pengukuran ke sistem lainnya, dan memberikan estimasi suhu berdasarkan masukan data. Kalkulator suhu sangat berguna dalam berbagai konteks, mulai dari ilmu pengetahuan hingga aplikasi sehari-hari seperti memasak, industri, dan rekayasa.
+    </h2>
+    <br>
+    <hr>
+    <br><br>
+    <div class="pengenalan">
+        <p>
+            Mari kita langsung mencobanya
+        </p>
+        <p>
+            Masukan  suhu derajat Celcius (°C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk fahrenheit (°F)
+        </p>
+    </div>
+    <br> 
+    <div class="perhitungan">    
+        <p>
+            Celcius (°C):
+        </p>
+        <div id="celcius-container">
+            <p>
+                <textarea name="celcius" id="celcius" cols="40" rows="2" placeholder=" input number"></textarea>
+            </p>
+        </div>
+        <div class="tombol">
+            <button type="submit" name="konversi" id="konversi-btn">KONVERSI</button>
+            <button type="reset" name="reset" id="reset-btn">RESET</button>
+            <button type="button" title="Reverse" id="reverse-btn" tabindex="4" onclick="toggleKonversi()">Reverse</button>
+
+        </div>  
+        
+        <p>
+            Fahrenheit (°F):
+        </p>
+        <div id="fahrenheit-container">
+        <p> <textarea name="fahrenheit" id="fahrenheit" cols="40" rows="2"></textarea>
+        </p>
+        </div>
+        <p>
+            Cara Kalkulasi :
+        </p>
+        <div id="carakalkulasi">
+        <p>
+            <textarea name="carakalkulasi" id="carakalkulasi" cols="40" rows="2"></textarea>
+        </p>
+        </div>
+    </div>
+    <br>
+    <div class="link">
+        <a href="">Fahrenheit ke Celcius</a>
+    </div>
+    <br>
+    <h3>
+        Cara Konversi Dari Celcius (°C) ke Fahrenheit (°F)
+    </h3>
+    <hr>
+    <br>
+    <div class="carakonversi">
+        <p>
+            Suhu S dalam derajat Fahrenheit (°F) sama dengan suhu S dalam derajat Celsius (°C) kali 9/5 tambah 32.
+        </p>
+        <p>
+            S(°F) = (S(°C) × 9/5) + 32
+        </p>
+    </div>
+    <br>
+    <hr>
+    <footer class="footer-container">
+        <div class="webinfo">
+            <p>© 2024</p>
+            <p>Nisrina Hamidah Isyaratri</p>
+        </div>
+
+    </footer>
+    <script src="kalkulator new.js"></script>
+</body>
+</html>
